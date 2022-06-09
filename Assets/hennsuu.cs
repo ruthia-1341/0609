@@ -4,22 +4,35 @@ using UnityEngine;
 
 public class hennsuu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    int a = 10;
+    int vx = 20;
+
+    public void Ensyu71()
     {
-        int a= 10;
+        int vx = 5;
+        Debug.Log(vx);
+        vx = 10;
+        Debug.Log(vx);
+    }
+
+    public void Proc()
+    {
+        
         float fw = 3.14f;
         string str = "‚±‚ñ‚É‚¿‚Í";
         bool bl = true;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        
         Debug.Log(a);
         Debug.Log(fw);
         Debug.Log(str);
         Debug.Log(bl);
-
     }
+
+    public void Ensyu72()
+    {
+        Debug.Log(vx);
+       
+    }
+
+
 }
