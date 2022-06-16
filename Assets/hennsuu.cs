@@ -40,7 +40,8 @@ public class hennsuu : MonoBehaviour
 
     public void Ensyu74()
     {
-      
+        vx += 10;//外のint vx = 20;に+10するっていう処理になる。 多分連打したら値がずっと増える。
+        Debug.Log(vx);
     }
 
 }
