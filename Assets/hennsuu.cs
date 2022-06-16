@@ -13,6 +13,11 @@ public class hennsuu : MonoBehaviour
         Debug.Log(vx);
         vx = 10;
         Debug.Log(vx);
+        /*this vx = 10;
+         これはEnsyu71の外のvxに代入している。
+
+        そのうえでDebug.Log(vx);をすると、その真上のint vx = 5;を持ってきてくれる
+         */
     }
 
     public void Proc()
@@ -30,9 +35,12 @@ public class hennsuu : MonoBehaviour
 
     public void Ensyu72()
     {
-        Debug.Log(vx);
-       
+        Debug.Log(vx);//中にないから外に一つ出て探してきてくれる。優しい。
     }
 
+    public void Ensyu74()
+    {
+      
+    }
 
 }
